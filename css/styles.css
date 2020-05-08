@@ -4259,7 +4259,7 @@ input[type=button].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    color: #fff;
+    /* color: #fff; */
     background-color: #1abc9c;
 }
 
@@ -10555,7 +10555,8 @@ form .row:first-child .floating-label-form-group {
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
-    color: #fff;
+    /* color: #fff; */
+    
     background: #1abc9c00;
 }
 .navbar-shrink .navbar-brand {
