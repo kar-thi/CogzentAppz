@@ -67,3 +67,16 @@
   
   })(jQuery); // End of use strict
   
+
+
+
+  $(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+            $('.navbar-brand img').attr('src', 'img/logo.png');
+        }
+        if ($(this).scrollTop() < 50) {
+            $('.navbar-brand img').attr('src', 'img/logo-white.png');
+        }
+    })
+});
