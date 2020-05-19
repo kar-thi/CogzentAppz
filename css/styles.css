@@ -10587,6 +10587,12 @@ form .row:first-child .floating-label-form-group {
     flex: 1 1 auto;
     padding: 0rem 0rem;
 }
+a.bg-primary:hover,
+a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+    background-color: #fb9600 !important;
+}
 
 /* responsive */
 @media (max-width: 768px) {
@@ -10626,5 +10632,12 @@ form .row:first-child .floating-label-form-group {
     .dm-width {
         width: auto;
         margin: 0 auto;
+    }
+}
+@media (max-width: 991px) {
+    #mainNav .navbar-nav {
+        margin-top: 1rem;
+        background: #fff;
+        padding: 1rem;
     }
 }
